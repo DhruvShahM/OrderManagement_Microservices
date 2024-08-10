@@ -28,7 +28,7 @@ target/
 build/
 !**/src/main/**/build/
 !**/src/test/**/build/
-/mysql/
+/data/
 
 ### VS Code ###
 .vscode/
