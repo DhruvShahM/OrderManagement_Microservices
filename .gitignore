@@ -41,3 +41,8 @@ build/
 /data/
 /docker/tempo/tempo-data/
 /docker/tempo/tempo-data/
+order-service/order-service/pom.xml
+order-service/order-service/src/main/java/com/example/microservices/order_service/OrderServiceApplication.java
+order-service/order-service/src/main/java/com/example/microservices/order_service/client/InventoryClient.java
+order-service/order-service/src/main/java/com/example/microservices/order_service/config/RestClientConfig.java
+products/product-service/.idea/workspace.xml

@@ -5,11 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92c5bda3-8158-4040-aa94-8553c249074b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../api-gateway/api-gateway/src/main/java/com/example/microservice/api_gateway/routes/Routes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../api-gateway/api-gateway/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../api-gateway/api-gateway/src/main/java/com/example/microservice/api_gateway/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../inventory-service/inventory-service/src/main/java/com/example/microservices/inventory_service/config/OpenAPIConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../order-service/order-service/src/main/java/com/example/microservices/order_service/config/OpenAIConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../order-service/order-service/src/main/java/com/example/microservices/order_service/config/RestClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../products/product-service/src/main/java/com/example/microservices/products/config/OpenAPIConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../api-gateway/api-gateway/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../api-gateway/api-gateway/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../api-gateway/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../api-gateway/api-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../api-gateway/api-gateway/src/main/java/com/example/microservice/api_gateway/routes/Routes.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../api-gateway/api-gateway/src/main/java/com/example/microservice/api_gateway/routes/Routes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../api-gateway/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../api-gateway/api-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../inventory-service/inventory-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../inventory-service/inventory-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../inventory-service/inventory-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../inventory-service/inventory-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../order-service/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../order-service/order-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../order-service/order-service/src/main/java/com/example/microservices/order_service/OrderServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../order-service/order-service/src/main/java/com/example/microservices/order_service/OrderServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../order-service/order-service/src/main/java/com/example/microservices/order_service/client/InventoryClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../order-service/order-service/src/main/java/com/example/microservices/order_service/client/InventoryClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../order-service/order-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../order-service/order-service/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../products/product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../products/product-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../products/product-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../products/product-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +101,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.OrderServiceApplicationTests">
+  <component name="RunManager" selected="Application.OrderServiceApplication">
     <configuration name="ApiGatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.microservice.api_gateway.ApiGatewayApplication" />
       <module name="api-gateway" />
@@ -157,9 +171,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ProductsApplication" />
         <item itemvalue="Application.OrderServiceApplication" />
         <item itemvalue="Application.ApiGatewayApplication" />
+        <item itemvalue="Application.ProductsApplication" />
         <item itemvalue="Application.InventoryServiceApplication" />
         <item itemvalue="JUnit.OrderServiceApplicationTests" />
       </list>
