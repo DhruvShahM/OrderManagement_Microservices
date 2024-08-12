@@ -37,6 +37,8 @@ export class HomePageComponent implements OnInit {
         this.productService.getProducts()
           .pipe()
           .subscribe(product => {
+            console.log(product);
+            
             this.products = product;
           })
       }
@@ -48,7 +50,7 @@ export class HomePageComponent implements OnInit {
   }
 
   orderProduct(product: Product, quantity: string) {
-
+    debugger
     this.oidcSecurityService.userData$.subscribe(result => {
       console.log(result);
       const userDetails = {

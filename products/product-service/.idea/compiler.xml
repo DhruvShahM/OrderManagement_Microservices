@@ -9,6 +9,7 @@
         <module name="api-gateway" />
         <module name="order-service" />
         <module name="inventory-service" />
+        <module name="notification-service" />
         <module name="products" />
       </profile>
     </annotationProcessing>
@@ -17,6 +18,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="api-gateway" options="-parameters" />
       <module name="inventory-service" options="-parameters" />
+      <module name="notification-service" options="-parameters" />
       <module name="order-service" options="-parameters" />
       <module name="products" options="-parameters" />
     </option>
