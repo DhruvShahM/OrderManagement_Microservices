@@ -50,7 +50,6 @@ export class HomePageComponent implements OnInit {
   }
 
   orderProduct(product: Product, quantity: string) {
-    debugger
     this.oidcSecurityService.userData$.subscribe(result => {
       console.log(result);
       const userDetails = {

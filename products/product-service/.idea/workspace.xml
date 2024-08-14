@@ -5,27 +5,62 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92c5bda3-8158-4040-aa94-8553c249074b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../notification-service/notification-service/src/main/java/com/example/microservices/notification_service/order/OrderPlacedEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../api-gateway/api-gateway/docker/grafana/datasource.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../api-gateway/api-gateway/docker/keycloak/realms/realm-export.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../api-gateway/api-gateway/docker/prometheus/prometheus.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../api-gateway/api-gateway/docker/tempo/tempo.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../notification-service/notification-service/src/main/java/com/example/microservices/notification_service/service/NotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../notification-service/notification-service/src/main/resources/avro/order-placed.avsc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../order-service/src/main/resources/avro/order-placed.avsc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../products/product-service/src/main/java/com/example/microservices/products/config/ObservationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../products/product-service/src/main/resources/logback-spring.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Frontend-Angular/frontend/src/app/pages/home-page/home-page.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Frontend-Angular/frontend/src/app/pages/home-page/home-page.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../api-gateway/api-gateway/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../api-gateway/api-gateway/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../api-gateway/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../api-gateway/api-gateway/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../api-gateway/api-gateway/src/main/java/com/example/microservice/api_gateway/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../api-gateway/api-gateway/src/main/java/com/example/microservice/api_gateway/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../order-service/order-service/src/main/java/com/example/microservices/order_service/event/OrderPlacedEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../order-service/order-service/src/main/java/com/example/microservices/order_service/event/OrderPlacedEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../order-service/order-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../order-service/order-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../api-gateway/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../api-gateway/api-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../inventory-service/inventory-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../inventory-service/inventory-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../inventory-service/inventory-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../inventory-service/inventory-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../notification-service/notification-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../notification-service/notification-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../notification-service/notification-service/src/main/java/com/example/microservices/notification_service/order/OrderPlacedEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../notification-service/notification-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../notification-service/notification-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../order-service/order-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../order-service/order-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../order-service/order-service/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../order-service/order-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../order-service/order-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../order-service/order-service/mysql/init.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../order-service/order-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../order-service/order-service/src/main/java/com/example/microservices/order_service/OrderServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../order-service/order-service/src/main/java/com/example/microservices/order_service/client/InventoryClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../order-service/order-service/src/main/java/com/example/microservices/order_service/config/OpenAIConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../order-service/order-service/src/main/java/com/example/microservices/order_service/config/RestClientConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../order-service/order-service/src/main/java/com/example/microservices/order_service/controller/OrderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../order-service/order-service/src/main/java/com/example/microservices/order_service/dto/OrderRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../order-service/order-service/src/main/java/com/example/microservices/order_service/event/OrderPlacedEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../order-service/order-service/src/main/java/com/example/microservices/order_service/model/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../order-service/order-service/src/main/java/com/example/microservices/order_service/repository/OrderRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../order-service/order-service/src/main/java/com/example/microservices/order_service/service/OrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../order-service/order-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../order-service/order-service/src/main/resources/db/migration/V1__init.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../order-service/order-service/src/test/java/com/example/microservices/order_service/OrderServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../order-service/order-service/src/test/java/com/example/microservices/order_service/TestOrderServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../order-service/order-service/src/test/java/com/example/microservices/order_service/TestcontainersConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../order-service/order-service/src/test/java/com/example/microservices/order_service/stubs/InventoryClientStub.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../order-service/order-service/src/test/resources/application.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../products/product-service/data/WiredTiger.turtle" beforeDir="false" afterPath="$PROJECT_DIR$/../products/product-service/data/WiredTiger.turtle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../products/product-service/data/WiredTiger.wt" beforeDir="false" afterPath="$PROJECT_DIR$/../products/product-service/data/WiredTiger.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../products/product-service/data/collection-2-5567533840846601477.wt" beforeDir="false" afterPath="$PROJECT_DIR$/../products/product-service/data/collection-2-5567533840846601477.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../products/product-service/data/diagnostic.data/metrics.interim" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../products/product-service/data/index-3-5567533840846601477.wt" beforeDir="false" afterPath="$PROJECT_DIR$/../products/product-service/data/index-3-5567533840846601477.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../products/product-service/data/journal/WiredTigerLog.0000000003" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../products/product-service/data/journal/WiredTigerLog.0000000004" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../products/product-service/data/sizeStorer.wt" beforeDir="false" afterPath="$PROJECT_DIR$/../products/product-service/data/sizeStorer.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../products/product-service/src/main/java/com/example/microservices/products/dto/ProductRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../products/product-service/src/main/java/com/example/microservices/products/dto/ProductRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../products/product-service/src/main/java/com/example/microservices/products/dto/ProductResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../products/product-service/src/main/java/com/example/microservices/products/dto/ProductResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../products/product-service/src/main/java/com/example/microservices/products/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../products/product-service/src/main/java/com/example/microservices/products/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../products/product-service/src/main/java/com/example/microservices/products/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../products/product-service/src/main/java/com/example/microservices/products/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../products/product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../products/product-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../products/product-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../products/product-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,22 +114,44 @@
   "keyToString": {
     "Application.ApiGatewayApplication.executor": "Run",
     "Application.InventoryServiceApplication.executor": "Run",
-    "Application.NotificationServiceApplication.executor": "Run",
+    "Application.NotificationServiceApplication.executor": "Debug",
     "Application.OrderServiceApplication.executor": "Run",
     "Application.ProductsApplication.executor": "Run",
+    "Application.com.example.microservices.notification.NotificationServiceApplication.executor": "Run",
     "JUnit.OrderServiceApplicationTests.executor": "Run",
+    "Maven.api-gateway [clean].executor": "Run",
+    "Maven.api-gateway [compile].executor": "Run",
+    "Maven.api-gateway [spring-boot:run].executor": "Run",
+    "Maven.notification-service [clean].executor": "Run",
+    "Maven.notification-service [compile].executor": "Run",
+    "Maven.notification-service [spring-boot:run].executor": "Run",
+    "Maven.order-service [clean].executor": "Run",
+    "Maven.products [clean].executor": "Run",
+    "Maven.products [compile].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Personal/Github/Java/OrderManagement_Microservices/OrderManagement_Microservices/notification-service/notification-service"
+    "last_opened_file_path": "C:/Personal/Github/Java/OrderManagement_Microservices/OrderManagement_Microservices/api-gateway/api-gateway/docker/keycloak/realms"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Personal\Github\Java\OrderManagement_Microservices\OrderManagement_Microservices\api-gateway\api-gateway\docker\keycloak\realms" />
+      <recent name="C:\Personal\Github\Java\OrderManagement_Microservices\OrderManagement_Microservices\notification-service\notification-service\src\main\resources\avro" />
+      <recent name="C:\Personal\Github\Java\OrderManagement_Microservices\OrderManagement_Microservices\notification-service\notification-service\src\main\java\com\example\microservices\notification" />
+      <recent name="C:\Personal\Github\Java\OrderManagement_Microservices\OrderManagement_Microservices\notification-service\src\main\resources\avro" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Personal\Github\Java\OrderManagement_Microservices\OrderManagement_Microservices\inventory-service\inventory-service" />
       <recent name="C:\Personal\Github\Java\OrderManagement_Microservices\OrderManagement_Microservices\inventory-service\inventory-service\docker" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn compile" />
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -170,13 +227,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.ApiGatewayApplication" />
+      <item itemvalue="Application.InventoryServiceApplication" />
+      <item itemvalue="Application.OrderServiceApplication" />
+      <item itemvalue="Application.ProductsApplication" />
+      <item itemvalue="Application.NotificationServiceApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.NotificationServiceApplication" />
-        <item itemvalue="Application.OrderServiceApplication" />
-        <item itemvalue="Application.ProductsApplication" />
         <item itemvalue="Application.InventoryServiceApplication" />
         <item itemvalue="Application.ApiGatewayApplication" />
+        <item itemvalue="Application.OrderServiceApplication" />
+        <item itemvalue="Application.ProductsApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -208,6 +272,16 @@
           <url>file://$PROJECT_DIR$/../../order-service/order-service/src/main/java/com/example/microservices/order_service/service/OrderService.java</url>
           <line>25</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../order-service/src/main/java/com/example/microservices/order_service/service/OrderService.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../order-service/src/main/java/com/example/microservices/order_service/service/OrderService.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
